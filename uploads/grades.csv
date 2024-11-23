@@ -1,0 +1,5 @@
+Question,Grade,Reason
+Question 1,5/5,"The student's answer ""True"" is correct as per the rubric, which awards full points for answering 'True' or 'T'."
+Question 2,0/5,"The student answered ""False,"" which is incorrect according to the rubric. The correct answer is 'True', and thus no points are awarded."
+Question 3,10/10,"The student correctly identified George Washington as the first president of the US. The spelling is also correct, so full points are awarded."
+Question 4,0/10,"The student answered ""adjective,"" which is incorrect. The correct answer is ""Noun"". There is no partial credit specified for incorrect identification, so no points are awarded."
