@@ -49,7 +49,7 @@ const Autograder = () => {
       }}>
         <button
           onClick={() => navigate('/norubric')}
-          className="flex items-center gap-2 px-8 py-4 rounded-lg border-2 text-[#FAF9F6] hover:bg-[#6BB1A6] hover:text-[#FAF9F6] transition font-medium text-md"
+          className="flex items-center gap-2 px-8 py-4 rounded-lg border-2 text-[#FAF9F6] bg-[#25897a] hover:bg-[#6BB1A6] hover:text-[#FAF9F6] transition font-medium text-md"
           style={{
             borderColor: '#FAF9F6',
             opacity: '0.8',
@@ -62,7 +62,7 @@ const Autograder = () => {
 
         <button
           onClick={() => navigate('/rubric')}
-          className="flex items-center gap-2 px-8 py-4 rounded-lg border-2 text-[#FAF9F6] hover:bg-[#6BB1A6] hover:text-[#FAF9F6] transition font-medium text-md"
+          className="flex items-center gap-2 px-8 py-4 rounded-lg border-2 text-[#FAF9F6] bg-[#25897a] hover:bg-[#6BB1A6] hover:text-[#FAF9F6] transition font-medium text-md"
           style={{
             borderColor: '#FAF9F6',
             opacity: '0.8',
