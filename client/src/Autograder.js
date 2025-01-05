@@ -9,24 +9,16 @@ const Autograder = () => {
       className="text-[#FAF9F6]/80 relative"
       style={{
         fontFamily: 'Geneva',
+        marginTop: '-100px'
       }}
     >
         
         <div className="relative mb-8" style = {{
             marginTop: "45px",
         }}>
-        {/* Bookmark Background */}
-        <div
-          className="absolute top-0 left-0 h-20 bg-[#1d997c]/80"
-          style={{
-            width: '50%',
-            clipPath: 'polygon(0 0, 100% 0, 85% 50%, 100% 100%, 0 100%)',
-          }}
-        ></div>
 
-        {/* Text inside the bookmark */}
         <h1
-          className="relative text-5xl font-semibold z-10 pl-4"
+          className="relative text-5xl font-semibold z-10 pl-4 text-center"
           style={{
             lineHeight: '5rem',
           }}
@@ -35,30 +27,29 @@ const Autograder = () => {
         </h1>
       </div>
 
-      <div className="relative">
+      <div className="relative text-center">
 
         <p classname="font-lg"
           style={{
             marginBottom: '20px',
             marginLeft: '30px',
-            marginTop: '-10px',
+            marginTop: '-20px',
             fontWeight: 'lighter',
             opacity: "0.8",
           }}
         >
-          To achieve high accuracy in grading submissions, our model would need a grading guideline
-          which looks like the document above. <br></br>Do you have a grading guideline to start with?
+          Do you have a grading guideline to start with?
         </p>
       </div>
 
       {/* Buttons */}
-      <div className="flex gap-4 mt-4 space-x-7" style ={{
+      <div className="flex gap-4 mt-4 space-x-10   justify-center" style ={{
         marginLeft: '25px',
         marginTop: '5px',
       }}>
         <button
           onClick={() => navigate('/norubric')}
-          className="flex items-center gap-2 px-6 py-3 rounded-lg border-2 text-[#FAF9F6] hover:bg-[#6BB1A6] hover:text-[#FAF9F6] transition font-medium text-md"
+          className="flex items-center gap-2 px-8 py-4 rounded-lg border-2 text-[#FAF9F6] hover:bg-[#6BB1A6] hover:text-[#FAF9F6] transition font-medium text-md"
           style={{
             borderColor: '#FAF9F6',
             opacity: '0.8',

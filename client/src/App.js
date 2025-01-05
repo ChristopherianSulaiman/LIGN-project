@@ -22,7 +22,7 @@ function HomePage() {
         <Home />
         </div>
 
-      <div id="how-it-works">
+      <div id="how-it-works" className = "relative z-10">
         <Hiw />
       </div>
 

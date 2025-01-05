@@ -44,7 +44,12 @@ const contact = () => {
                     opacity: "0.8",
                 }}
                 >
-                Team: Bryant Tan, Christopherian Sulaiman, Christophian Sulaiman, Dhaviat Pachchigar
+                Team: Bryant Tan, Christopherian Sulaiman, Christophian Sulaiman
+                <br></br>
+                Reach us through:<br></br>
+                bryant.tan2103@gmail.com <br></br>
+                - <br></br>
+                -
                 </p>
             </div>
         </div>
