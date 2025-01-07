@@ -4,5 +4,9 @@
 
 body {
   background-color: #121312;
+  background-image: linear-gradient(to right, transparent, rgba(42, 99, 155, 0.3), transparent);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
+  overflow-x: hidden;
 }

@@ -6,9 +6,9 @@ const Autograder = () => {
 
     return (
         <div className="text-[#FAF9F6]/80 relative text-center flex flex-col items-center"
-            style={{ fontFamily: 'Geneva', marginTop: '-100px' }}>
+            style={{ fontFamily: 'Geneva'}}>
             
-            <h1 className="relative text-5xl font-semibold z-10 pl-4 text-center mt-12"
+            <h1 className="relative text-5xl font-semibold z-10 pl-4 text-center mt-10"
                 style={{ lineHeight: '5rem' }}>
                 Ready to start grading?
             </h1>

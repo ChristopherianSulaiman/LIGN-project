@@ -22,27 +22,24 @@ function HomePage() {
         <Home />
         </div>
 
-      <div id="how-it-works" className = "relative z-10">
-        <Hiw />
-      </div>
-
       <div id="autograder">
         <Autograder/>
       </div>
 
+      <div id="how-it-works">
+        <Hiw />
+      </div>
 
-      <div id="subscribe-contact" className="flex justify-center items-start gap-12 py-10 relative">
-        {/* Subscription Section */}
+      <div id="subscribe-contact" className="flex justify-center items-start gap-12 py-10 relative" style={{
+        marginTop: '-80px'
+      }}>
         <div id="subscribe" className="w-[45%] text-right">
             <Subscribe />
         </div>
 
-        {/* Visible Divider Line */}
         <div className="absolute top-[12rem] w-[1px] bg-[#FAF9F6]/60 h-32 z-20">
-            <div className="absolute inset-0 bg-black blur-lg w-full h-full opacity-80"></div>
         </div>
 
-        {/* Contact Section */}
         <div id="contact" className="w-[45%] text-left">
             <Contact />
         </div>
