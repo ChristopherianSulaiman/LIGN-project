@@ -10,24 +10,45 @@ const LoginModal = ({ isOpen, onClose }) => {
 
   // Handle form submission
   const handleSubmit = async (e) => {
-    e.preventDefault(); // Prevent page reload
-    setError(""); // Clear previous errors
-
+    e.preventDefault();
+    setError("");
+  
     try {
+      // Try to log in first
       const response = await axios.post(
         "http://localhost:4000/api/auth/login",
         { email, password },
         { withCredentials: true }
       );
-      console.log(response.data);
-      alert(response.data); // Success message
-      onClose(); // Close modal on successful login
+      alert(response.data);  // Success message
+      onClose();
     } catch (error) {
-      setError(error.response?.data || "Something went wrong"); // Set error message from backend
+      if (error.response && error.response.status === 401) {
+        const confirmRegister = window.confirm(
+          "No account found. Would you like to create a new account?"
+        );
+  
+        if (confirmRegister) {
+          try {
+            const registerResponse = await axios.post(
+              "http://localhost:4000/api/auth/register",
+              { email, password }
+            );
+            alert(registerResponse.data);  // Success registration message
+            onClose();
+          } catch (registerError) {
+            setError(
+              registerError.response?.data || "Registration failed. Try again."
+            );
+          }
+        }
+      } else {
+        // If another error occurs, display it
+        setError(error.response?.data || "Something went wrong");
+      }
     }
-
-    
   };
+  
 
 
 
