@@ -8,25 +8,23 @@ const subscribe = () => {
                 fontFamily: 'Geneva',
             }}
         >
-            {/* Title Section */}
             <div
                 className="relative mb-8"
                 style={{
                     marginTop: '50px',
                 }}
             >
-                <div
-                    className="absolute top-0 left-0 h-20 bg-[#1d997c]/80"
+                <div className="absolute top-0 right-0 h-20 bg-gradient-to-l from-[#206c8c] to-[#1d997c] shadow-lg w-[50%]" 
                     style={{
-                        width: '50%',
-                        clipPath: 'polygon(0 0, 100% 0, 85% 50%, 100% 100%, 0 100%)',
-                    }}
-                ></div>
+                        clipPath: "polygon(100% 0, 0 0, 20% 50%, 0 100%, 100% 100%)"
+                    }}>
+                </div>
 
                 <h1
                     className="relative text-5xl font-semibold z-10 pl-4"
                     style={{
                         lineHeight: '5rem',
+                        marginRight: '15px'
                     }}
                 >
                     Subscription
@@ -34,18 +32,12 @@ const subscribe = () => {
             </div>
 
             <div className="relative">
+                <p className="mr-6 text-md opacity-80 text-right font-lighter" style = {{
+                    marginRight: "10px"
+                }}>
 
-                <p classname="font-lg"
-                style={{
-                    marginBottom: '20px',
-                    marginLeft: '30px',
-                    marginTop: '-10px',
-                    fontWeight: 'lighter',
-                    opacity: "0.8",
-                }}
-                >
-               For now, our product is for live-demo only! Please scroll to contact section to reach out to us.
-                </p>
+                Our live-demo product is available now! Stay updated with our latest features and announcements. 
+                <br></br>Contact us for more details and be the first to know about future releases.  </p>
             </div>
 
         </div>

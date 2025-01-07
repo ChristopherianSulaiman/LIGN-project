@@ -16,7 +16,7 @@ const contact = () => {
                 }}
             >
                 <div
-                    className="absolute top-0 left-0 h-20 bg-[#1d997c]/80"
+                    className="absolute top-0 left-0 h-20 bg-gradient-to-r from-[#206c8c] to-[#1d997c] shadow-lg"
                     style={{
                         width: '50%',
                         clipPath: 'polygon(0 0, 100% 0, 85% 50%, 100% 100%, 0 100%)',
@@ -35,15 +35,9 @@ const contact = () => {
 
             <div className="relative">
 
-                <p classname="font-lg"
-                style={{
-                    marginBottom: '20px',
-                    marginLeft: '30px',
-                    marginTop: '-10px',
-                    fontWeight: 'lighter',
-                    opacity: "0.8",
-                }}
-                >
+            <p className="mr-6 text-md opacity-80 text-left font-lighter" style = {{
+                marginLeft: '10px'
+            }}>
                 Team: Bryant Tan, Christopherian Sulaiman, Christophian Sulaiman
                 <br></br>
                 Reach us through:<br></br>

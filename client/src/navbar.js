@@ -53,7 +53,7 @@ function Navbar() {
             className="relative text-[#FAF9F6] text-lg font-bold hover:underline transition-all duration-300 hover:-translate-y-1"
             style={{ fontFamily: 'Optima' }}
           >
-            How It Works
+            Requirements
           </button>
           <button
             onClick={() => scrollToSection('subscribe')}
