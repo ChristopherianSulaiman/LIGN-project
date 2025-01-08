@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/intelli/static/css/main.5a9c790f.css",
+    "main.js": "/intelli/static/js/main.eaa25811.js",
+    "static/js/453.419a5d54.chunk.js": "/intelli/static/js/453.419a5d54.chunk.js",
+    "index.html": "/intelli/index.html",
+    "main.5a9c790f.css.map": "/intelli/static/css/main.5a9c790f.css.map",
+    "main.eaa25811.js.map": "/intelli/static/js/main.eaa25811.js.map",
+    "453.419a5d54.chunk.js.map": "/intelli/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a9c790f.css",
+    "static/js/main.eaa25811.js"
+  ]
+}
